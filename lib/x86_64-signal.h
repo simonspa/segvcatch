@@ -17,6 +17,7 @@ details.  */
 
 #include <signal.h>
 #include <sys/syscall.h>
+#include <unistd.h>
 
 #define HANDLE_SEGV 1
 #define HANDLE_FPE 1
