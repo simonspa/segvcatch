@@ -18,4 +18,3 @@ set(SOURCES
 add_library(${TARGET} STATIC ${SOURCES})
 
 install(TARGETS ${TARGET} ARCHIVE DESTINATION lib)
-install(FILES segvcatch.h DESTINATION include)
